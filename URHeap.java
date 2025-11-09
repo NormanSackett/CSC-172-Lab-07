@@ -9,12 +9,6 @@ public class URHeap<T extends Comparable<T>> implements UR_Heap<T> {
 		heapArr = (T[]) new Comparable[capacity];
 	}
 	
-	/*public URHeap(T[] inputArr) {
-		capacity = inputArr.length;
-		size = inputArr.length;
-		heapArr = inputArr.clone();
-	}*/
-	
 	@SuppressWarnings("unchecked")
 	public URHeap() {
 		capacity = 10;
@@ -121,3 +115,4 @@ public class URHeap<T extends Comparable<T>> implements UR_Heap<T> {
 		}
 	}
 }
+
